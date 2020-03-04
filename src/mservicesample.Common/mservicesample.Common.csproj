@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>mservicesample</Authors>
+    <Product>mservicesample</Product>
+    <Description>mservicesample common lib</Description>
+    <PackageTags>mservicesample.Common_</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
