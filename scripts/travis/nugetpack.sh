@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../../src/mservicesample.Common
+cd src/mservicesample.Common
 dotnet pack /p:PackageVersion=1.0.$TRAVIS_BUILD_NUMBER --no-restore -o .
 
 case "$TRAVIS_BRANCH" in
